@@ -1,0 +1,2 @@
+az login
+az vm list-skus --location westeurope --resource-type virtualMachines --all --zone true  --query "[?starts_with(name, 'Standard_B')].{Name:name, Zones: join(',', locationInfo[].zones[])}" --output table
