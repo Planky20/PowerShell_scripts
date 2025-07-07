@@ -18,3 +18,6 @@ New-DynamicDistributionGroup -Name "Group Name" -DisplayName "Group DisplayName"
 Set-DynamicDistributionGroup -Identity "full email" -RecipientFilter $PLTLDataEngineers2  # - zmiana recipient filtru
 
 Set-DynamicDistributionGroup -Identity "full email" -ForceMembershipRefresh  # - wymuszenie odświeżenia listy członków
+
+Get-DistributionGroupMember -Identity "Room Resource Name" # - sprawdza członków tzw. Room list w Outlook
+Add-DistributionGroupMember -Identity "Room Resource Name" -Member "NewRoom@yourdomain.com" # - dodanie nowego członka do Room list w Outlook
