@@ -3,7 +3,7 @@ This repository contains a collection of PowerShell scripts that I have used thr
 📁 Repository Structure
 
 - **SPO_Scripts**  
-  Contains scripts used to automate user identity lifecycle processes. These integrate PowerShell with Azure App Registrations, Windows Server scheduled tasks, and SharePoint lists.  
+  Contains scripts used to automate user identity lifecycle processes. These integrate PowerShell with Azure App Registrations, Graph API, Windows Server scheduled tasks, and SharePoint lists.  
   Key functionalities include:
   - Automated account creation, modification, and deletion
   - Operations on Active Directory (AD) objects, later synced to Entra ID via CloudSync
